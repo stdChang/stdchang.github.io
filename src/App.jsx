@@ -32,7 +32,7 @@ function App() {
         <Button variant="contained" href="shucream">
           Shucream wo tabeniikouyo
         </Button>
-        <img src = "./src/assets/shucreams.png"> </img>
+        <img src = "src/assets/mashles.png"> </img>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
