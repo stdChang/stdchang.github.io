@@ -33,7 +33,7 @@ const Confetti = () => {
 
     async function initialize() {
       // Load the image
-      const img = await loadImage('./src/assets/shucreams.png');
+      const img = await loadImage('/img/shucreams.png');
       imgRef.current = img;
 
       // Start animation loop
@@ -47,6 +47,7 @@ const Confetti = () => {
       for (let i = 0; i < numberOfImages; i++) {
         // If the image is below the canvas, reset its position to the top
         if (x > canvas.width-32 || x < 0) {
+          // eslint-disable-next-line react-hooks/exhaustive-deps
           speed = -speed;
         }
 
