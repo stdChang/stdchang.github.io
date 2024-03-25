@@ -33,7 +33,7 @@ const Confetti = () => {
 
     async function initialize() {
       // Load the image
-      const img = await loadImage('src/assets/mashles.png');
+      const img = await loadImage('./src/assets/mashles.png');
       imgRef.current = img;
 
       // Start animation loop
